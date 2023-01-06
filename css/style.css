@@ -1,0 +1,43 @@
+body {
+  font-family: "Roboto", Railway;
+}
+.header {
+}
+.link-studio {
+}
+
+.hero {
+  /* NAVY BLUE */
+  background: #2e2f42;
+}
+.section-header {
+  /* Header 1 */
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 107%;
+  text-align: center;
+  letter-spacing: 0.02em;
+
+  color: #ffffff;
+}
+
+.hero-button {
+  /* Button Text */
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.04em;
+
+  color: #ffffff;
+
+  /* IRIS */
+  background: #4d5ae5;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
