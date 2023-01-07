@@ -121,7 +121,7 @@ body {
   color: #ffffff;
 }
 .hero-button {
-  font-family: "Roboto";
+  font-family: inherit;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -136,6 +136,8 @@ body {
   background: #4d5ae5;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+
+  cursor: pointer;
 }
 .features {
 }
@@ -249,8 +251,6 @@ body {
 }
 .sec-three-item-text {
   font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   /* identical to box height, or 150% */
@@ -286,8 +286,6 @@ body {
 }
 .footer-text {
   font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   /* or 150% */
@@ -327,6 +325,7 @@ body {
   flex: none;
   order: 0;
   flex-grow: 0;
+  cursor: pointer;
 }
 .portf-sec-one-button-web-site {
   display: flex;
@@ -348,6 +347,7 @@ body {
   flex: none;
   order: 1;
   flex-grow: 0;
+  cursor: pointer;
 }
 .portf-sec-one-button-app {
   box-sizing: border-box;
@@ -372,6 +372,7 @@ body {
   flex: none;
   order: 2;
   flex-grow: 0;
+  cursor: pointer;
 }
 
 .portf-sec-one-button-design {
@@ -394,6 +395,7 @@ body {
   flex: none;
   order: 3;
   flex-grow: 0;
+  cursor: pointer;
 }
 .portf-sec-one-button-marketing {
   display: flex;
@@ -415,6 +417,7 @@ body {
   flex: none;
   order: 4;
   flex-grow: 0;
+  cursor: pointer;
 }
 .portf-sec-two {
 }
@@ -443,8 +446,6 @@ body {
 .portf-sec-two-text {
   /* Body */
   font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   /* identical to box height, or 150% */
@@ -460,14 +461,14 @@ body {
 }
 
 .hover:hover {
-  font-family: 'Roboto';
-font-style: normal;
-font-weight: 600;
-font-size: 16px;
-line-height: 24px;
-/* identical to box height, or 150% */
-letter-spacing: 0.02em;
-text-decoration-line: underline;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+  letter-spacing: 0.02em;
+  text-decoration-line: underline;
 
-color: #4D5AE5;
+  color: #4d5ae5;
 }
