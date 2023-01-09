@@ -1,5 +1,7 @@
 body {
   font-family: "Roboto", "raleway";
+  font-weight: 400;
+  font-size: 16px;
 }
 
 .list {
@@ -83,20 +85,27 @@ body {
 .header-post {
   font-family: "Roboto";
   font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
+  line-height: 24px;
   /* identical to box height, or 150% */
   letter-spacing: 0.02em;
 
   /* SLATE */
   color: #434455;
 }
+
+.header-post:hover {
+  font-size: 16px;
+  line-height: 1.5;
+  /* identical to box height, or 150% */
+  letter-spacing: 0.02em;
+
+  /* IRIS */
+  color: #4d5ae5;
+}
+
 .header-tel {
   font-family: "Roboto";
   font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
   line-height: 1.5;
   /* identical to box height, or 150% */
   letter-spacing: 0.02em;
@@ -104,6 +113,17 @@ body {
   /* SLATE */
   color: #434455;
 }
+
+.header-tel:hover {
+  font-size: 16px;
+  line-height: 1.5;
+  /* identical to box height, or 150% */
+  letter-spacing: 0.02em;
+
+  /* IRIS */
+  color: #4d5ae5;
+}
+
 .hero {
   /* NAVY BLUE */
   background: #2e2f42;
@@ -120,13 +140,13 @@ body {
 
   color: #ffffff;
 }
+
 .hero-button {
-  font-family: inherit;
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 24px;
-  /* identical to box height, or 150% */
+  line-height: 1.5;
   display: flex;
   align-items: center;
   letter-spacing: 0.04em;
@@ -139,14 +159,21 @@ body {
 
   cursor: pointer;
 }
-.features {
+
+.hero-button:hover {
+  background: #4d5ae5;
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+  border-radius: 4px;
 }
-.features-list {
+
+.hero-button:focus {
+  background: #404bbf;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
 }
-.features-item {
-}
+
 .features-header {
-  font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -163,10 +190,7 @@ body {
   flex-grow: 0;
 }
 .text-features {
-  font-family: "Roboto";
   font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
   line-height: 24px;
   /* or 150% */
   letter-spacing: 0.02em;
@@ -179,15 +203,12 @@ body {
   order: 1;
   flex-grow: 0;
 }
-.sec-two {
-}
+
 .sec-two-header {
-  font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
-  line-height: 40px;
-  /* identical to box height, or 111% */
+  line-height: 1.11;
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
@@ -195,21 +216,16 @@ body {
   /* NAVY BLUE */
   color: #2e2f42;
 }
-.sec-two-list {
-}
-.sec-two-item {
-}
+
 .sec-three {
   /* CLOUD */
   background: #f4f4fd;
 }
 .sec-three-header {
-  font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
-  /* identical to box height, or 111% */
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
@@ -217,8 +233,7 @@ body {
   /* NAVY BLUE */
   color: #2e2f42;
 }
-.sec-three-list {
-}
+
 .sec-three-item {
   width: 264px;
   height: 380px;
@@ -232,12 +247,10 @@ body {
 }
 .sec-three-item-header {
   /* Header 3 */
-  font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
-  /* identical to box height, or 120% */
   text-align: center;
   letter-spacing: 0.02em;
 
@@ -250,10 +263,7 @@ body {
   flex-grow: 0;
 }
 .sec-three-item-text {
-  font-family: "Roboto";
-  font-size: 16px;
   line-height: 1.5;
-  /* identical to box height, or 150% */
   text-align: center;
   letter-spacing: 0.02em;
 
@@ -285,10 +295,7 @@ body {
   color: #f4f4fd;
 }
 .footer-text {
-  font-family: "Roboto";
-  font-size: 16px;
   line-height: 1.5;
-  /* or 150% */
   letter-spacing: 0.02em;
 
   /* CORNFLOWER */
@@ -297,23 +304,22 @@ body {
 
 /*Porfolio*/
 
-.portf-main {
-}
-.portf-sec-one {
-}
-.portf-sec-list {
-}
-.portf-sec-item {
-}
 .portf-sec-one-button-all {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+
+  color: #ffffff;
+
   /* Auto layout */
   display: flex;
-  flex-direction: row;
-  align-items: flex-start;
   padding: 12px 24px;
-
-  width: 69px;
-  height: 48px;
 
   /* OCEAN */
   background: #404bbf;
@@ -325,17 +331,34 @@ body {
   flex: none;
   order: 0;
   flex-grow: 0;
+
   cursor: pointer;
 }
-.portf-sec-one-button-web-site {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  padding: 12px 24px;
 
-  width: 116px;
-  height: 48px;
+.portf-sec-one-button-web-site {
+  /* Button Text */
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+
+  /* IRIS */
+  color: #4d5ae5;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+
+  /* Auto layout */
+  display: flex;
+  justify-content: center;
+  padding: 12px 24px;
 
   /* CLOUD */
   background: #f4f4fd;
@@ -347,20 +370,33 @@ body {
   flex: none;
   order: 1;
   flex-grow: 0;
+
   cursor: pointer;
 }
 .portf-sec-one-button-app {
-  box-sizing: border-box;
+  /* Button Text */
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+
+  /* IRIS */
+  color: #4d5ae5;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
 
   /* Auto layout */
   display: flex;
-  flex-direction: row;
   justify-content: center;
-  align-items: center;
   padding: 12px 24px;
-
-  width: 78px;
-  height: 48px;
 
   /* CLOUD */
   background: #f4f4fd;
@@ -376,14 +412,29 @@ body {
 }
 
 .portf-sec-one-button-design {
+  /* Button Text */
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
   display: flex;
-  flex-direction: row;
-  justify-content: center;
   align-items: center;
-  padding: 12px 24px;
+  text-align: center;
+  letter-spacing: 0.04em;
 
-  width: 101px;
-  height: 48px;
+  /* IRIS */
+  color: #4d5ae5;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+
+  /* Auto layout */
+  display: flex;
+  justify-content: center;
+  padding: 12px 24px;
 
   /* CLOUD */
   background: #f4f4fd;
@@ -395,17 +446,33 @@ body {
   flex: none;
   order: 3;
   flex-grow: 0;
+
   cursor: pointer;
 }
 .portf-sec-one-button-marketing {
+  /* Button Text */
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  /* identical to box height, or 150% */
   display: flex;
-  flex-direction: row;
-  justify-content: center;
   align-items: center;
-  padding: 12px 24px;
+  text-align: center;
+  letter-spacing: 0.04em;
 
-  width: 126px;
-  height: 48px;
+  /* IRIS */
+  color: #4d5ae5;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+
+  display: flex;
+  justify-content: center;
+  padding: 12px 24px;
 
   /* CLOUD */
   background: #f4f4fd;
@@ -417,14 +484,10 @@ body {
   flex: none;
   order: 4;
   flex-grow: 0;
+
   cursor: pointer;
 }
-.portf-sec-two {
-}
-.portf-sec-two-list {
-}
-.portf-sec-two-link {
-}
+
 .portf-sec-two-headers {
   /* Header 3 */
   font-family: "Roboto";
@@ -432,7 +495,6 @@ body {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
-  /* identical to box height, or 120% */
   letter-spacing: 0.02em;
 
   /* NAVY BLUE */
@@ -448,7 +510,6 @@ body {
   font-family: "Roboto";
   font-size: 16px;
   line-height: 1.5;
-  /* identical to box height, or 150% */
   letter-spacing: 0.02em;
 
   /* SLATE */
@@ -460,15 +521,8 @@ body {
   flex-grow: 0;
 }
 
-.hover:hover {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 600;
-  font-size: 16px;
-  line-height: 24px;
-  /* identical to box height, or 150% */
-  letter-spacing: 0.02em;
-  text-decoration-line: underline;
-
-  color: #4d5ae5;
+.header-link:hover {
+  /* IRIS */
+  background: yellow;
+  border-radius: 2px;
 }
